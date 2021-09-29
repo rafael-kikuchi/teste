@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body {
+            background-color: white;
+            max-width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #d1 {
+            width: 100vw;
+            height: 25vh;
+            background-color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #d2 {
+            width: 100vw;
+            height: 25vh;
+            background-color:orange;
+            display: flex;
+            align-items: center;
+        }
+
+        #d3 {
+            width: 100vw;
+            height: 12.5vh;
+            display: flex;
+            justify-content: space-between;
+            margin: 0;
+        }
+        
+        #d4 {
+            height: 100%;
+            background-color:yellow;
+            display: flex;
+        
+        }
+        
+        #d5 {
+            height: 100%;
+            background-color:darkgreen;
+            display: flex;
+            align-items: center;
+        
+        }
+        
+        #d6 {
+            width: 50%;
+            height: 100%;
+            background-color:blue;
+        
+        }
+        
+        #d7 {
+            width: 50%;
+            height: 100%;
+            background-color:purple;
+        
+        }
+
+        .div {
+            margin: 0px;
+            padding: 0px;
+            border: 0px;
+        }
+        .div p {
+            margin:0px;
+            padding: 0;
+            border: 0;
+        }
+    </style>
+
+</head>
+<body>
+   
+    <div id="d1" class="div">
+        <p>Div1</p>
+    </div>
+   
+    <div id="d2" class="div">
+        <p>Div2</p>
+    </div>
+   
+    <div id="d3" class="div">
+   
+        <div id="d3" classe="meio">
+   
+            <div id="d4" class="div">
+                <p>Info 1</p>
+            </div>
+            <div id="d5" class="div">
+                <p>Info 2</p>
+            </div>
+   
+        </div>
+    </div>
+        <div id="d3" class="meio">
+   
+            <div id="d6" class="div">
+                <p>Info 3</p>
+            </div>
+            <div id="d7" class="div">
+                <p>Info 4</p>
+            </div>
+   
+        </div>
+   
+    </div>
+
+</body>
+</html>
