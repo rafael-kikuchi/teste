@@ -1,0 +1,64 @@
+body {
+
+    background-color: #eeeeee;
+    margin: 0;
+    padding: 0;
+
+}
+
+#top {
+
+    background-color: steelblue;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+}
+
+#top img.menu-hbg {
+
+    height: 75%;
+    display: flex;
+
+}
+
+#top p {
+
+    display: flex;
+    font-size: 25px;
+    font-family: Verdana;
+    font-weight: bold;
+    color: white;
+    padding-left: 10px;
+
+}
+
+#posts {
+
+    width:100vw;
+
+}
+
+#postItem1 {
+
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+
+}
+
+#postItem1 img {
+
+    width: 90%;
+    max-width: 500px;
+
+}
+
+#postItem1 .info {
+
+    display: flex;
+    width: 100vw;
+
+}
